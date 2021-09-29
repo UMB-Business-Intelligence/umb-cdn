@@ -1,6 +1,7 @@
 /* ---------------------- GLOBAL CSS ELEMENTS ---------------------- */
 /* This pulls the sofia-pro font from adobe. */
 /*Does this work? */
+/* --------------------------- DARK MODE --------------------------- */
 
 @import url("https://use.typekit.net/apo2lgf.css");
 
@@ -569,6 +570,17 @@ th {
     position: sticky;
     top: 0;
     box-shadow: 0 1px 1px -1px rgba(0,0,0,0.4);
+}
+
+/* ---------------------- GLOSS TAB WORD BREAK OVERRIDE FROM MEFS ----------- */
+li.tab-break-all {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    
+}
+
+li.tab-break-word {
+    word-break: break-word;
 }
 
 
