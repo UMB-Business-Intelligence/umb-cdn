@@ -1069,3 +1069,23 @@ th {
 .gls-iconnav > li > .gls-width-expand > h3.gls-card-title {
     color: #ececec;
 }
+
+.coh-accordion-title>a:focus, .coh-accordion-title>a:hover, .gls-accordion-title:focus, .gls-accordion-title:hover {
+    color: #ececec;
+}
+
+.gls-pagination>*>:focus, .gls-pagination>*>:hover {
+    color: #ececec;
+}
+
+.gls-tab-horizontal .coh-accordion-tabs-nav>*>a:focus, .gls-tab-horizontal .coh-accordion-tabs-nav>*>a:hover, .gls-tab>*>a:focus, .gls-tab>*>a:hover {
+    color: #ececec;
+}
+
+.gls-nav-default > li > a {
+    color: rgba(167,169,172, 1);
+}
+
+.gls-nav-default>li>a:focus, .gls-nav-default>li>a:hover {
+    color: #ececec;
+}
