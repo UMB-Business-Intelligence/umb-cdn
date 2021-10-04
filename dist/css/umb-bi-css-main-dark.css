@@ -36,6 +36,7 @@
     --card-default-header-background: rgb(65, 64, 66);
     --offcanvas-bar-background: rgb(65, 64, 66);
     --button-outline-background: rgba(207,209,212, 1);
+    --comment-primary-background: rgb(65, 64, 66);
 
     /* uofu secondary color #836c8e*/
     --global-secondary-purple-background:                  var(--color-secondary-purple-8);    
