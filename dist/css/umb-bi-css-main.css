@@ -545,6 +545,21 @@ th.sticky-header {
     box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.4);
 }  
 
+th.sticky-header-first {
+    background: white;
+    position: sticky;
+    top: 0;
+    height: 58px;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.4);
+}  
+
+th.sticky-header-second {
+    background: white;
+    position: sticky;
+    top: 58px;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.4);
+}  
+
 /* ---------------------- STICKY TABLE HEADERS --------------------- */
 th {
     background: white;

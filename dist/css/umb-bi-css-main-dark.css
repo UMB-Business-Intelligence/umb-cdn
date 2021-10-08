@@ -559,9 +559,24 @@ flex-wrap: wrap;
 
 /* ---------------------- STICKY TABLE HEADER SECTION ---------------------- */
 th.sticky-header {
-    background: white;
+    background: rgb(65, 64, 66);
     position: sticky;
     top: 0;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.4);
+}  
+
+th.sticky-header-first {
+    background: rgb(65, 64, 66);
+    position: sticky;
+    top: 0;
+    height: 58px;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.4);
+}  
+
+th.sticky-header-second {
+    background: rgb(65, 64, 66);
+    position: sticky;
+    top: 58px;
     box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.4);
 }  
 
@@ -1030,10 +1045,6 @@ html {
 
 #component-tab-left {
     content-visibility: auto;
-}
-
-th.sticky-header {
-    background: rgb(65, 64, 66);
 }
 
 .gls-table-striped tbody tr:nth-of-type(odd), .gls-table-striped>tr:nth-of-type(odd) {
