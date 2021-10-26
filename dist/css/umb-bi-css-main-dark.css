@@ -959,10 +959,6 @@ th {
     background-color: rgba(172, 22, 44, 1);
 }
 
-.gls-alert-danger {
-    background: rgb(65, 64, 66);
-}
-
 .gls-card-default.gls-card-hover:hover, .gls-child-card-default .gls-card.gls-card-hover:hover {
     background-color: rgb(65, 64, 66);
 }
