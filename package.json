@@ -1,0 +1,25 @@
+{
+  "name": "umb-cdn",
+  "version": "1.0.0",
+  "description": "A collection of custom CSS, Javascript, and other static files that may be served via a CDN. Authored by University Medical Billing Business Intelligence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UMB-Business-Intelligence/umb-cdn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UMB-Business-Intelligence/umb-cdn/issues"
+  },
+  "homepage": "https://github.com/UMB-Business-Intelligence/umb-cdn#readme",
+  "devDependencies": {
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
