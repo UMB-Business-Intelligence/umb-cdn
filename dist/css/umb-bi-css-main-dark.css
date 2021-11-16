@@ -1109,3 +1109,16 @@ th {
 .gls-nav-default>li>a:focus, .gls-nav-default>li>a:hover {
     color: #ececec;
 }
+
+.analyst-reassign-button:hover {
+    background-color: var(--text-primary-muted);
+    transition: background-color .2s;
+}
+
+#request-reassign-modal > div > ul.assigned_unid-reassign-button > div > div.gls-width-expand > h3:hover {
+    color: var(--color-primary-8);
+}
+
+#request-reassign-modal > div > #u9999999:hover {
+    background-color: rgba(167,169,172, 0.5);
+}

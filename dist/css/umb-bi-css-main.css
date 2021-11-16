@@ -863,3 +863,15 @@ li.tab-break-word {
     border-top: var(--card-secondary-purple-footer-border-width) solid var(--card-secondary-purple-footer-border);
 }
 
+.analyst-reassign-button:hover {
+    background-color: rgba(65, 64, 66, 0.4);
+    transition: background-color .2s;
+}
+
+#request-reassign-modal > div > ul.assigned_unid-reassign-button > div > div.gls-width-expand > h3:hover {
+    color: var(--color-primary-8);
+}
+
+#request-reassign-modal > div > #u9999999:hover {
+    background-color: rgba(167,169,172, 0.5);
+}
