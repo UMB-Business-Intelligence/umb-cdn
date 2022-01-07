@@ -37,6 +37,7 @@
     --offcanvas-bar-background: rgb(65, 64, 66);
     --button-outline-background: rgba(207,209,212, 1);
     --comment-primary-background: rgb(65, 64, 66);
+    --table-header-cell-color: rgba(172, 22, 44, 1);
 
     /* uofu secondary color #836c8e*/
     --global-secondary-purple-background:                  var(--color-secondary-purple-8);    
@@ -938,10 +939,6 @@ input:checked + .slider {
     background-color: var(--bg-red-light);
 }
 
-th {
-    background: var(--bg-light-gray);
-}
-
 .gls-card-default, .gls-child-card-default .gls-card {
     background-color: rgba(40, 40, 41, 1);
     color: var(--text-secondary);
@@ -1048,7 +1045,7 @@ html {
 }
 
 th {
-    background: rgb(65, 64, 66);
+    background: var(--bg-tertiary);
 }
 
 .gls-section-primary > .gls-section {
@@ -1121,4 +1118,8 @@ th {
 
 #request-reassign-modal > div > #u9999999:hover {
     background-color: rgba(167,169,172, 0.5);
+}
+
+a.gls-link-muted:hover {
+    color: var(--text-secondary);
 }
