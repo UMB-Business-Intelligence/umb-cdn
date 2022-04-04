@@ -14,6 +14,7 @@ A collection of custom CSS, Javascript, and other static files that may be serve
 
 ### To call the minified js and icons:
 >`<script src="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn/gloss/js/gloss.min.js"></script>`
+
 >`<script src="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn/gloss/js/gloss-icons.min.js"></script>`
 
 #### Reference:
