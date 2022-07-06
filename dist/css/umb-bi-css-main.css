@@ -87,6 +87,7 @@ body {
 
 .nav-item {
     width: 100%;
+    white-space: nowrap;
 }
 
 /* .nav-item:nth-last-child(2) {
