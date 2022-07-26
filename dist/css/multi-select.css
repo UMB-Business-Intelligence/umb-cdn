@@ -57,16 +57,17 @@
 .multiSelect_list {
     margin: 0;
     margin-bottom: 25px;
-    padding: 0;
+    padding: unset;
     list-style: none;
     opacity: 0;
     visibility: hidden;
     position: absolute;
     max-height: calc(10 * 31px);
     top: 50px;
-    left: 0;
+    /* left: 0; */
     z-index: 9999;
-    right: 0;
+    /* right: 0; */
+    width: 100%;
     background: #fff;
     border-radius: 4px;
     overflow-x: hidden;
@@ -97,7 +98,7 @@
 
 .multiSelect_option:hover .multiSelect_text {
     color: #fff;
-    background: #cc0000af;
+    background: #b42c40c7;
 }
 
 .multiSelect_text {
@@ -179,8 +180,8 @@
 }
 
 .multiSelect_choice {
-    background: rgba(228, 15, 15, 0.205);
-    color: #444f5b;
+    background: rgb(180 44 64);
+    color: #ffffff;
     padding: 2px 8px 4px 8px;
     line-height: 20px;
     margin: 8px 5px 0px 5px;
@@ -195,7 +196,7 @@
     width: 12px;
     height: 12px;
     display: inline-block;
-    stroke: #b2bac3;
+    stroke: #d5d5d5;
     stroke-width: 4px;
     margin-top: -1px;
     margin-left: 2px;
@@ -216,11 +217,9 @@
 
 .multiSelect_placeholder {
     position: absolute;
-    left: 6px;
     font-size: 16px;
     top: 35px;
-    padding: 0 4px;
-    background-color: #fff;
+    padding-left: 10px;
     color: #9f9fa0;
     pointer-events: none;
     transition: all .1s ease;

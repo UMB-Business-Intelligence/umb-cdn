@@ -1,0 +1,74 @@
+.select2-container
+{
+    text-align: left !important;
+}
+
+.select2-custom-selection
+{
+    min-height: 46px !important;
+    border: 1px solid #d9dbde !important;
+    text-align: left !important;
+}
+
+.select2-custom-selection.select2-selection--single
+{
+    padding-top: 7px !important;
+}
+
+.select2-custom-selection.select2-selection--single > .select2-selection__arrow
+{
+    top: 8px !important;
+}
+
+.select2-custom-selection > span.select2-search--inline
+{
+    position: relative !important;
+    vertical-align: sub !important;
+    margin-left: 5px !important;
+}
+
+.select2-custom-selection > span.select2-search--inline > textarea
+{
+    font-family: 'Sofia Pro' !important;
+    height: 25px !important;
+}
+
+.select2-custom-selection > span.select2-search--inline > textarea::placeholder
+{
+    color: #9f9fa0 !important;
+}
+
+.select2-custom-selection > ul > li.select2-selection__choice
+{
+    height: 28px !important;
+    border: none !important;
+    background-color: #b42c40c7 !important;
+    color: #fff;
+    border-radius: 20px !important;
+    padding-left: 10px !important;
+}
+
+.select2-custom-selection > ul > li.select2-selection__choice > button.select2-selection__choice__remove
+{
+    position: relative !important;
+    float: right !important;
+    border-right: none !important;
+    height: inherit !important;
+    padding-right: 10px;
+}
+
+.select2-custom-selection > ul > li.select2-selection__choice > button.select2-selection__choice__remove:hover
+{
+    background-color: unset !important;
+}
+
+.select2-custom-selection > ul > li.select2-selection__choice > button.select2-selection__choice__remove > span
+{
+    vertical-align: middle !important;
+}
+
+.select2-custom-selection > ul > li.select2-selection__choice > span.select2-selection__choice__display
+{
+    vertical-align: middle !important;
+    padding-right: 0px;
+}
