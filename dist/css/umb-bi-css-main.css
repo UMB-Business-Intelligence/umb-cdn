@@ -876,3 +876,113 @@ li.tab-break-word {
 #request-reassign-modal > div > #u9999999:hover {
     background-color: rgba(167,169,172, 0.5);
 }
+
+/* ---------------------- HR APP CSS ELEMENTS ---------------------- */
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.clickable-row { 
+    cursor: pointer; 
+} 
+
+.hr-app.gls-card {
+    border: none; 
+    border-radius: 10px;
+}
+
+.circle-container {
+    width: 50px; /* Set the initial width of the container */
+    height: 50px; /* Set the initial height of the container */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the circle horizontally */
+    align-items: center; /* Center the circle vertically */
+}
+    
+.circle {
+    max-width: 100%; /* Ensure the circle does not exceed the container width */
+    max-height: 100%; /* Ensure the circle does not exceed the container height */
+    border-radius: 50%; /* Make the div round */
+    /* Set the background image */
+    background-size: cover; /* Ensure the image covers the entire circle */
+    background-position: center; /* Center the image within the circle */
+}
+
+.icon-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.custom-svg-size {
+    width: 20px; /* or any width you prefer */
+    height: 20px; /* or any height you prefer */
+}
+
+.underline-container {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-container::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* adjust this value as needed */    
+    width: 90%;
+    height: 1px; /* thickness of the underline */
+    background-color: #d2d6da; /* color of the underline */
+}
+
+.umb-card-action-badge {
+    background-color: #e7e7e8; 
+    border-radius: 10px; 
+    border: none;
+    outline: none;
+    border-style: none;
+    height: 40px; 
+    width: 40px; 
+    transition: opacity 0.3s; 
+}
+
+.umb-card-action-badge:hover, .umb-profile-edit-cir:hover{
+    opacity: 0.8;
+}
+
+.umb-card-icon {
+    color: {{icon_color}};
+}
+
+.hr-scroll-offset {
+    scroll-margin-top: 200px;
+}
+
+.umb-profile-pic-sq {
+    height: 150px; 
+    width: 150px; 
+    background-color: #d2d6da; 
+    border-radius: 10px; 
+    position: relative;
+}
+
+.umb-profile-edit-cir {
+    background-color: #b42c40; 
+    border-radius: 100px; 
+    height: 40px; 
+    width: 40px; 
+    position: absolute; 
+    bottom: -15px; 
+    right:-15px;
+    transition: opacity 0.3s;
+}
+
+.umb-card-button {
+    border: none;
+    outline: none;
+    border-style: none;
+}
+
+.required {
+    color: #AC162C;
+}
