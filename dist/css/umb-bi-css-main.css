@@ -986,3 +986,33 @@ li.tab-break-word {
 .required {
     color: #AC162C;
 }
+
+
+.card-button {
+    border: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #b42c40; 
+    color: #fff; /* text color */
+    border-radius: 5px;
+}
+
+.custom-file-upload:hover {
+    background-color: #b42c4099;
+}
+
+.custom-file-upload i {
+    margin-right: 5px; /* margin between icon and text */
+}
+
+
+input[type="file"]::-webkit-file-upload-button {
+    width: 100px;
+    height: 40px; 
+    border-radius: 5px; 
+
+}
