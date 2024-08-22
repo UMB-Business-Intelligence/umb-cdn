@@ -6,16 +6,27 @@
 
 :root {
     font-size: 16px;
-    --primary-font: font-family: sofia-pro, sans-serif;
-    box-sizing: border-box;
+    font-size: var(--base-body-font-size);
+    --primary-font: 'Sofia Pro', sans-serif;
+    --primary-font: var(--global-font-family) /* 'Sofia Pro', sans-serif; */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     --text-primary: rgba(65, 64, 66, 1); /* uofu #414042 */
+    --text-primary: var(--color-gray-8);
     --text-primary-muted: rgba(65, 64, 66, .5); /* uofu #414042 */
+    --text-primary-muted: var(--color-gray-4);
     --text-secondary: #ececec;
+    --text-secondary: var(--color-gray-1);
     --nav-item-primary: rgba(255, 255, 255, 1);  /* uofu #ffffff */
+    --nav-item-primary: var(--color-white);
     --bg-red-light: rgba(180, 44, 64, 1); /* uofu #b42c40 */
+    --bg-red-light: var(--global-primary-background);
     --bg-red-dark: rgba(172, 22, 44, 1); /* uofu #ac162c */
+    --bg-red-dark: var(--color-primary-9);
     --bg-light-gray: rgba(244, 244, 244, 1);
+    --bg-light-gray: var(--color-gray-0);
     --bg-tertiary:rgba(255, 255, 255, 1);  /* uofu #ffffff */
+    --bg-tertiary:var(--color-white);
     --transition-speed: 300ms;
 
     /* uofu secondary color #836c8e*/
@@ -131,10 +142,12 @@ body {
 
 .fa-primary {
     color: rgba(255, 255, 255,1);
+    color: var(--color-white);
 }
 
 .fa-secondary {
     color: rgba(255, 255, 255,.5);
+    color: var(--color-trans-white-5);
 }
 
 .fa-primary,
@@ -257,12 +270,16 @@ input[type="search"] {
     
     input[type="search"].dark {
         background: #222;
+        background: var(--color-trans-black-6);
         color: #fff;
+        color: var(--color-white);
     }
     
     input[type="search"].light {
         background: #fff;
+        background: var(--color-white);
         color: #222;
+        color: var(--color-trans-black-6);
     }
     
     input[type="search"]::-webkit-search-cancel-button {
@@ -305,6 +322,7 @@ input[type="search"] {
 .filter-btn:hover {
     background-color: var(--bg-red-dark);
     color: #ffffff;
+    color: var(--color-white);
 }
 
 .social-icons a {
@@ -362,6 +380,7 @@ input[type="search"] {
     right: 0;
     bottom: 0;
     background-color: #ccc;
+    background-color: var(--color-gray-2);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -374,6 +393,7 @@ input[type="search"] {
     left: 4px;
     bottom: 4px;
     background-color: white;
+    background-color: var(--color-white);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -407,6 +427,7 @@ input:checked + .slider:before {
 
 .umb_frm_bkgd {
     background-color: rgba(65, 64, 66, .5);
+    background-color: var(--color-gray-4);
 }
 
 .umb_frm_btn_pad {
@@ -541,6 +562,7 @@ flex-wrap: wrap;
 /* ---------------------- STICKY TABLE HEADER SECTION ---------------------- */
 th.sticky-header {
     background: white;
+    background: var(--color-white);
     position: sticky;
     top: 0;
     box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.4);
@@ -548,6 +570,7 @@ th.sticky-header {
 
 th.sticky-header-first {
     background: white;
+    background: var(--color-white);
     position: sticky;
     top: 0;
     height: 58px;
@@ -556,6 +579,7 @@ th.sticky-header-first {
 
 th.sticky-header-second {
     background: white;
+    background: var(--color-white);
     position: sticky;
     top: 58px;
     box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.4);
@@ -564,6 +588,7 @@ th.sticky-header-second {
 /* ---------------------- STICKY TABLE HEADERS --------------------- */
 th {
     background: white;
+    background: var(--color-white);
     position: sticky;
     top: 0;
     box-shadow: 0 1px 1px -1px rgba(0,0,0,0.4);
@@ -652,11 +677,13 @@ li.tab-break-word {
     box-sizing: border-box;
     flex-wrap: wrap;
     border: 1px solid black;
+    border: var(--global-border-width) solid var(--global-border);
     margin-bottom: 2rem;
 }
 
 .grid-cell {
     border: 1px solid black;
+    border: var(--global-border-width) solid var(--global-border);
 }
 
 .cell-5 {
@@ -680,6 +707,7 @@ li.tab-break-word {
     background: #353535;
     font-size: 1rem;
     color: #fff;
+    color: var(--color-white);
     box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
     height: 100%;
     width: 100%;
@@ -933,10 +961,12 @@ li.tab-break-word {
     width: 90%;
     height: 1px; /* thickness of the underline */
     background-color: #d2d6da; /* color of the underline */
+    background-color: var(--color-gray-3);
 }
 
 .umb-card-action-badge {
-    background-color: #e7e7e8; 
+    background-color: #e7e7e8;
+    background-color: var(--color-gray-2); /* needs to be reviewed as this color is also used for --button-text-disabled-color*/
     border-radius: 10px; 
     border: none;
     outline: none;
@@ -961,13 +991,15 @@ li.tab-break-word {
 .umb-profile-pic-sq {
     height: 150px; 
     width: 150px; 
-    background-color: #d2d6da; 
+    background-color: #d2d6da;
+    background-color: var(--color-gray-3);
     border-radius: 10px; 
     position: relative;
 }
 
 .umb-profile-edit-cir {
-    background-color: #b42c40; 
+    background-color: #b42c40;
+    background-color: var(--color-primary-8);
     border-radius: 100px; 
     height: 40px; 
     width: 40px; 
@@ -985,6 +1017,7 @@ li.tab-break-word {
 
 .required {
     color: #AC162C;
+    color:  var(--color-primary-9);
 }
 
 
@@ -996,13 +1029,16 @@ li.tab-break-word {
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: #b42c40; 
+    background-color: #b42c40;
+    background-color: var(--color-primary-8);
     color: #fff; /* text color */
+    color: var(--color-white);
     border-radius: 5px;
 }
 
 .custom-file-upload:hover {
     background-color: #b42c4099;
+    background-color: var(--color-primary-7);
 }
 
 .custom-file-upload i {
