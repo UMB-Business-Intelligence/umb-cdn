@@ -8,7 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
         self.style.position = "relative";
 
-        field.hidden = true;
+        // field.hidden = true;
+        // "Hide" the default <select> tag
+        field.style.opacity = 0;
+        field.style.height = 0;
+        field.style.margin = 0;
+        field.style.padding = 0;
+        field.style.position = "absolute";
+        field.style.bottom = '0%';
+        field.style.left = '50%';
+        field.style.transform = 'translateX(-50%)';
 
         self.insertAdjacentHTML('beforeend',  `<div class="multiSelect_dropdown"></div>
                                                 <span class="multiSelect_placeholder">` + placeholder + `</span>
