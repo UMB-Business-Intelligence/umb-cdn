@@ -1,21 +1,22 @@
-# UMB CUSTOM CDN
+# UMB Custom CDN
 A collection of custom CSS, Javascript, and other static files that may be served via a CDN. Authored by University Medical Billing Business Intelligence
 
-### To call the main css:
+### To call the main UMB css:
 >`<link href="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn/dist/css/umb-bi-css-main.css" rel="stylesheet">`
 
-### To call the main js:
+### To call the main UMB js:
 >`<script src="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn/dist/js/umb-bi-js-main.js"></script>`
 
-## Self-managed Gloss version:
+# Self-managed Gloss version:
+Gloss references from version 2.8.25
 
 ### To call the minified css:
->`<link href="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn/gloss/css/gloss.min.css" rel="stylesheet">`
+>`<link href="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn@v2.8.25/gloss/2.8.25/css/gloss.min.css" rel="stylesheet">`
 
 ### To call the minified js and icons:
->`<script src="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn/gloss/js/gloss.min.js"></script>`
+>`<script src="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn@v2.8.25/gloss/2.8.25/js/gloss.min.js"></script>`
 
->`<script src="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn/gloss/js/gloss-icons.min.js"></script>`
+>`<script src="https://cdn.jsdelivr.net/gh/UMB-Business-Intelligence/umb-cdn@v2.8.25/gloss/2.8.25/js/gloss-icons.min.js"></script>`
 
 #### Reference:
 This repo was built using the following guide: 
